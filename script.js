@@ -124,6 +124,7 @@ const createPassword = function () {
   inputPassword.value = password;
   return password;
 };
+
 btnGeneratePassword.addEventListener('click', () => {
   createPassword();
 });

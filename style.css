@@ -272,11 +272,9 @@ p {
   font-size: 20px;
   cursor: pointer;
 }
-
 .generate-password-btn:hover {
   background-color: green;
 }
-
 .generate-password-btn:active {
   transform: scale(0.95);
 }
