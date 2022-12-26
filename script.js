@@ -108,14 +108,14 @@ list.forEach(task => {
 // end of SAVE IN LOCALSTORAGE ======
 
 // SECTION - 3 ========================
-const btnGeneratePassword = document.querySelector('.btn');
+const btnGeneratePassword = document.querySelector('.generate-password-btn');
 const inputPassword = document.getElementById('input-password');
 const copyIconEl = document.querySelector('.fa-copy');
 const alertContainerEl = document.querySelector('.alert-container');
 const createPassword = function () {
   const chars =
     '0123456789abcdefghijklmnopqrstuvwxtz!@#$%^&*()_+?:{}[]ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const passwordLength = 12;
+  const passwordLength = 16;
   let password = '';
   for (let index = 0; index < passwordLength; index++) {
     const randomNum = Math.floor(Math.random() * chars.length);

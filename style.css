@@ -262,7 +262,7 @@ p {
   transform: scale(0.95);
 }
 
-.btn {
+.generate-password-btn {
   background: black;
   color: white;
   border: none;
@@ -273,11 +273,11 @@ p {
   cursor: pointer;
 }
 
-.btn:hover {
+.generate-password-btn:hover {
   background-color: green;
 }
 
-.btn:active {
+.generate-password-btn:active {
   transform: scale(0.95);
 }
 
